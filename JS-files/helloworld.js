@@ -41,3 +41,10 @@ if (
     console.log("welkom");
 }
 
+/* this is how i can create a comment
+across multiple lines! */
+
+// These satatements are made up of only values
+'hello world'
+42
+true
