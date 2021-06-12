@@ -39,8 +39,8 @@ Think of the ternary operator as a form in the road - you either take the right 
 
 const password = 'supersecretpassword'
 const input = 'supersecretpassword'
-const loginAttemptsFailed = 4
-const maxLoginAttempts = 4
+const loginAttemptsFailed = 2
+const maxLoginAttempts = 3
 
 const passwordCorrect = password === input
 const finalLoginAttempt = loginAttemptsFailed >= maxLoginAttempts
