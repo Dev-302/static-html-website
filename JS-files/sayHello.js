@@ -15,6 +15,15 @@ function greet(){
 greet()
 greet()
 
-function sayHello (firstName) {
-    console.log("Hello," + Dave)
+function sayHello (name) {
+    console.log("Hello " + name)
 }
+
+sayHello("Dave")
+sayHello("Jeroen")
+
+function learnTopic (name){
+    console.log("Topic " + name)
+}
+
+learnTopic("Loops")
