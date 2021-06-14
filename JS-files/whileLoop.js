@@ -20,7 +20,7 @@
 //     index = index + 1 // reassign the index variable so the while loop is not infinite
 // }
 
-let letters = ["a", "b", "c"]
+// let letters = ["a", "b", "c"]
 
 // initialization:
 // initialize index to letters.length - 1 (2 in this case)
@@ -32,6 +32,14 @@ let letters = ["a", "b", "c"]
 // index-- : after the loop has run, decrease index by 1
 // index-- is the same as writing index = index - 1
 
-for (let index = letters.length - 1; index >= 0; index--) {
-    console.log(letters[index])
+// for (let index = letters.length - 1; index >= 0; index--) {
+//     console.log(letters[index])
+// }
+
+for (var count = 0;
+    count < 100;
+    count = count+1
+    ){
+    console.log("Hoi " + count)
 }
+
