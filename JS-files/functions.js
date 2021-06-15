@@ -1,7 +1,3 @@
-function name(params) {
-    
-}
-
 function // keyword 
 happyBirthday // naam
 (
@@ -18,6 +14,6 @@ happyBirthday // naam
 function happyBD() {
     console.log("Happy birthday to you")
 }
-happyBirthday("Friend");
+// happyBirthday("Friend");
 happyBirthday("F*ckface");
-happyBirthday();
+// happyBirthday("Spuitelf");
